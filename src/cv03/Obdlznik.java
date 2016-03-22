@@ -31,5 +31,6 @@ public class Obdlznik implements IZobrazitelny {
             }
             System.out.println();
         }
+        System.out.println();   // medzera medzi utvarmi
     }
 }

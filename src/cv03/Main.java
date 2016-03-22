@@ -23,8 +23,11 @@ public class Main {
             System.out.println(objekt.dajObvod());
         }*/
         
-        Obdlznik obdlznik1 = new Obdlznik(5,4);
+        Obdlznik obdlznik1 = new Obdlznik(6, 5);
+        Trojuholnik trojuholnik1 = new Trojuholnik(5);
+        
         obdlznik1.zobraz();
+        trojuholnik1.zobraz();
     }
     
 }

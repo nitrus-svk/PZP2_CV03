@@ -27,9 +27,17 @@ public class Trojuholnik implements IZobrazitelny {
     
     public void zobraz() {
         for (int i = 1; i <= strana; i++) {
-            for (int j = 1; j <= strana; j++) {
-                
+            for (int j = 1; j <= i; j++) {
+                if ((i == 1) || (i == strana)) {
+                    System.out.print("*");
+                } else if ((j == 1) || (j == i)){
+                    System.out.print("*");
+                } else {
+                    System.out.print(" ");
+                }
             }
+            System.out.println();
         }
+        System.out.println(); // medzera medzi utvarmi
     }
 }
