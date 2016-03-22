@@ -23,7 +23,7 @@ public class Obdlznik implements IZobrazitelny {
             for (int j = 1; j <= stranaA; j++) {
                 if ((i == 1) || (i == stranaB)) {
                     System.out.print("*");
-                } else if ((j == 1) || (j == stranaA)){
+                } else if ((j == 1) || (j == stranaA)) {
                     System.out.print("*");
                 } else {
                     System.out.print(" ");

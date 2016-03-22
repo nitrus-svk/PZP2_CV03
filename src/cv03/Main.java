@@ -25,9 +25,12 @@ public class Main {
         
         Obdlznik obdlznik1 = new Obdlznik(6, 5);
         Trojuholnik trojuholnik1 = new Trojuholnik(5);
+        Sachovnica sachovnica1 = new Sachovnica();
         
         obdlznik1.zobraz();
         trojuholnik1.zobraz();
+        
+        sachovnica1.zobraz();
     }
     
 }
